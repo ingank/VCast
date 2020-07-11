@@ -15,8 +15,8 @@
 * Zusätzliches Wissen über VM's notwendig
 
 ## Host
-* Oracle VM VirtualBox *Extension Pack* (Version passt zum VM Host)
+* Oracle VM *VirtualBox Extension Pack* (Version passt zum VM Host)
 
 ## Gast
-* Betriebssystem *Guest Additions*
-* sudo apt install virtualbox-guest-dkms virtualbox-guest-x11 linux-headers-$(uname -r)
+* *Guest Additions*
+* `sudo apt install virtualbox-guest-dkms virtualbox-guest-x11 linux-headers-$(uname -r)`
