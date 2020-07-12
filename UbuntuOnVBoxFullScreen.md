@@ -4,17 +4,7 @@
 * Virtual Box aktualisieren
 * Virtual Box Extension Pack aktualisieren
 
-## Weg 1: Offizielle Paketquellen
-Auf dem Gast als root ausführen:
-```
-apt update
-apt upgrade
-apt install virtualbox-guest-dkms
-apt install virtualbox-guest-x11
-apt install linux-headers-$(uname -r)
-```
-
-## Weg 2: Mit Hilfe der Datei VBoxGuestAdditions.iso
+## Weg 1: Mit Hilfe der Datei VBoxGuestAdditions.iso
 Auf dem Gast als root ausführen:
 ```
 apt update
@@ -29,5 +19,18 @@ Als root ausführen:
 sh ./VBoxLinuxAdditions.run
 reboot now
 ```
-## Abwägung
-In der Praxis hat sich bisher der zweite Weg als stabiler erwiesen.
+
+## Weg 2: Offizielle Paketquellen
+Auf dem Gast als root ausführen:
+```
+apt update
+apt upgrade
+apt install virtualbox-guest-dkms
+apt install virtualbox-guest-x11
+apt install linux-headers-$(uname -r)
+reboot now
+```
+
+## Anmerkungen
+* In der Praxis hat sich bisher der erste Weg als stabiler erwiesen.
+* Es ist von Vorteil den Hauptbenutzer beim Booten **nicht** automatisch anzumelden.
