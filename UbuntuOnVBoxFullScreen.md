@@ -9,9 +9,14 @@
 * Gast-Betriebssystem Ubuntu 20.04 in voller Bildschirmauflösung (Full-Screen).
 * Zwei mögliche Wege beschreiben.
 
+## Voraussetzungen
+* Virtual Box wurde auf einem beliebigen Hostsystem installiert.
+* Ubuntu 20.04 wurde als Gastbetriebssystemes installiert.
+* Das Ubuntu-Gastbetriebssystems wurde aktualisiert.
+
 ## Vorbereitungen
-* Virtual Box aktualisieren
-* Virtual Box Extension Pack aktualisieren
+* Virtual Box aktualisieren // siehe Homepage
+* Virtual Box Extension Pack aktualisieren // siehe Homepage
 
 ## Weg 1: Mit Hilfe der Datei VBoxGuestAdditions.iso
 Auf dem Gast als root ausführen:
