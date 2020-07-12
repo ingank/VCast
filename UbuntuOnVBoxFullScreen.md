@@ -15,9 +15,7 @@ Mit Hilfe der grafischen Benutzeroberfläche ausführen:
 
 * Gastbildschirm // Devices // Insert Guest Additions CD image...
 * CD-Image in einem Dateimananger öffnen
-* Terminal im Hauptverzeichnis des Images öffnen
-
-Im Hauptverzeichnis des CD-Images als root ausführen:
+* Terminal im Hauptverzeichnis des Images öffnen und folgende Befehle als root ausführen:
 ```
 sh ./VBoxLinuxAdditions.run
 reboot now
