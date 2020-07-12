@@ -14,8 +14,9 @@ apt install linux-headers-$(uname -r)
 * Gastbildschirm // Devices // Insert Guest Additions CD image...
 * CD-Image in einem Dateimananger öffnen
 * Terminal im Hauptverzeichnis des Images öffnen
-
-Als root ausführen:
+```
+Im Hauptverzeichnis des CD-Images als root ausführen:
+```
 sh ./VBoxLinuxAdditions.run
 reboot now
 ```
