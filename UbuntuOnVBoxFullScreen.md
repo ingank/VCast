@@ -34,4 +34,4 @@ reboot now
 
 ## Anmerkungen
 * In der Praxis hat sich bisher der erste Weg als stabiler erwiesen.
-* Es ist von Vorteil den Hauptbenutzer beim Booten **nicht** automatisch anzumelden.
+* Es ist von Vorteil den Hauptbenutzer auf dem Gastsystem beim Booten **nicht** automatisch anzumelden.
