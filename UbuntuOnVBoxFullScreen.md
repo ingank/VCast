@@ -1,22 +1,13 @@
 # Virtual Box: Ubuntu 20.04 als Gast FullScreen anzeigen
 
-## Anwendungsbeispiel
-* Erlärvideos – persönliche Daten sollen nicht im Video gezeigt werden.
-* Schnell zurücksetzbares aufgeräumtes System.
-* Betrachter wird nicht vom eigentlichen Thema abgelenkt.
-
 ## Ziele
-* Gast-Betriebssystem Ubuntu 20.04 in voller Bildschirmauflösung (Full-Screen).
-* Zwei mögliche Wege beschreiben.
+* Gast-Betriebssystem Ubuntu 20.04 in voller Bildschirmauflösung (Full-Screen) darstellen.
+* Drei mögliche Wege beschreiben.
 
 ## Voraussetzungen
 * Virtual Box wurde auf einem beliebigen Hostsystem installiert.
 * Ubuntu 20.04 wurde als Gastbetriebssystemes installiert.
-* Das Ubuntu-Gastbetriebssystems wurde aktualisiert.
-
-## Vorbereitungen
-* Virtual Box aktualisieren // siehe Homepage
-* Virtual Box Extension Pack aktualisieren // siehe Homepage
+* Das Gastbetriebssystem wurde aktualisiert.
 
 ## Weg 1: Systemeinstellungen tweaken
 Zum einmaligen Testen:
@@ -65,5 +56,5 @@ reboot now
 ```
 
 ## Anmerkungen
-* In der Praxis hat sich bisher der erste Weg als stabiler erwiesen.
+* In der Praxis hat sich bisher der erste Weg als stabilster erwiesen.
 * Es ist von Vorteil den Hauptbenutzer auf dem Gastsystem beim Booten **nicht** automatisch anzumelden.
