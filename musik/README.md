@@ -38,7 +38,7 @@
 ![CC BY-NC-SA](http://i.creativecommons.org/l/by-nc-sa/3.0/us/88x31.png)
 * Songname: RadioSlug
 * Artist: Anitek
-* [Link to Soundfile](https://files.freemusicarchive.org/storage-freemusicarchive-org/music/blocSonic/Tab__Anitek/Luna/Anitek_-_11_-_RadioSlug.mp3)
+* [Link to Soundfile](https://files.freemusicarchive.org/storage-freemusicarchive-org/music/blocSonic/Anitek/Luna/Anitek_-_11_-_RadioSlug.mp3)
 * [Link to Album](https://freemusicarchive.org/music/Anitek/Luna)
 * [Link to Artist](https://freemusicarchive.org/music/Anitek)
 * [Link to Licence](http://creativecommons.org/licenses/by-nc-sa/3.0/us/)
