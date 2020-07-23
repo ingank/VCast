@@ -21,3 +21,7 @@ jack_capture --port system:capture_1 --port system:capture_2
 ```
 sudo apt install calf-plugins
 ```
+Die Ausgangskanäle des Plugins "Limiter" des "Calf Studio Gear's" in eine WAV-Datei streamen:
+```
+jack_capture --port "Calf Studio Gear":"Limiter Out #1" --port "Calf Studio Gear":"Limiter Out #2"
+```
