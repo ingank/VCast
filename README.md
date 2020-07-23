@@ -25,3 +25,7 @@ Die Ausgangskanäle des Plugins "Limiter" des "Calf Studio Gear's" in eine WAV-D
 ```
 jack_capture --port "Calf Studio Gear":"Limiter Out #1" --port "Calf Studio Gear":"Limiter Out #2"
 ```
+## Tools
+
+### [tmux](https://github.com/tmux/tmux)
+* http://minnano-news.club/tools/tmux-cheatsheet.html
