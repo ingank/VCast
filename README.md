@@ -29,3 +29,4 @@ jack_capture --port "Calf Studio Gear":"Limiter Out #1" --port "Calf Studio Gear
 
 ### [tmux](https://github.com/tmux/tmux)
 * http://minnano-news.club/tools/tmux-cheatsheet.html
+* http://www.strcat.de/eigenes/tmux.html
