@@ -13,6 +13,8 @@
 * [ffmpeg // JACK aka -f jack](https://ffmpeg.org/ffmpeg-devices.html#jack)
 * [ffmpeg // VAAPI](https://trac.ffmpeg.org/wiki/Hardware/VAAPI)
 * [ffmpeg // IntelGPUs](https://trac.ffmpeg.org/wiki/Hardware/QuickSync)
+* [ffmpeg // Scaling #1](https://trac.ffmpeg.org/wiki/Scaling)
+* [ffmpeg // Scaling #2](https://ffmpeg.org/ffmpeg-filters.html#scale)
 * [ScreenCast mit Audio-Kommentar im Terminal // Internes Dokument](scast_audio_term.md)
 
 ## Tools
