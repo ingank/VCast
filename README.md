@@ -1,6 +1,7 @@
 # podcast
 
 ## Allgemeines
+* [Plattform/HW](plattform.txt)
 * [Bildschirmauflösungen](https://www.elektronik-kompendium.de/sites/com/1904101.htm)
 * [Youtube-Alternativen](https://www.ionos.de/digitalguide/online-marketing/social-media/youtube-alternativen-die-besten-portale-im-ueberblick/)
 * [Screencast-EBook](https://www.learn2use.de/ebook/)
