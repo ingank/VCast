@@ -36,7 +36,10 @@ UUID=$(< uuid.txt)
 tmux select-pane -U
 tmux send-keys -t "RECORD" "./record_v.sh" C-m
 tmux select-pane -D
-jack_capture --bitdepth 16 --port "Calf Studio Gear":"Limiter Out #1" --port "Calf Studio Gear":"Limiter Out #2" --filename "$UUID.wav"
+jack_capture --bitdepth 16 \
+  --port "Calf Studio Gear":"Limiter Out #1" \
+  --port "Calf Studio Gear":"Limiter Out #2" \
+  --filename "$UUID.wav"
 tmux select-pane -U
 tmux send-keys -t "RECORD" C-c
 sleep 2
@@ -46,6 +49,8 @@ tmux kill-ses -t "RECORD"
 $ cat ~/vcast/record_v.sh
 #!/bin/bash
 UUID=$(< uuid.txt)
-ffmpeg -y -f x11grab -video_size 1920x1080 -framerate 60 -i :0.0 -vaapi_device ":0" -vf 'format=nv12,hwupload' -map 0:0 -threads 8 -aspect 16:9 -f mp4 -bf 0 -qp 19 -quality 2 -vcodec h264_vaapi "$UUID.mp4"
+ffmpeg -y -f x11grab -video_size 1920x1080 -framerate 60 -i :0.0 \
+  -vaapi_device ":0" -vf 'format=nv12,hwupload' \
+  -map 0:0 -threads 8 -aspect 16:9 \
+  -f mp4 -bf 0 -qp 19 -quality 2 -vcodec h264_vaapi "$UUID.mp4"
 ```
-
