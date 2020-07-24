@@ -12,6 +12,7 @@
 * [ffmpeg // meine Parametrierung](ffmpeg.txt)
 * [ffmpeg // JACK aka -f jack](https://ffmpeg.org/ffmpeg-devices.html#jack)
 * [ffmpeg // VAAPI](https://trac.ffmpeg.org/wiki/Hardware/VAAPI)
+* [ffmpeg // IntelGPUs](https://trac.ffmpeg.org/wiki/Hardware/QuickSync)
 * [ScreenCast mit Audio-Kommentar im Terminal // Internes Dokument](scast_audio_term.md)
 
 ## Tools
