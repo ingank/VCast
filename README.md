@@ -14,6 +14,7 @@
 * [ffmpeg.VAAPI](https://trac.ffmpeg.org/wiki/Hardware/VAAPI)
 
 ## Audio/Video
+* [ffmpeg // meine Parametrierung](ffmpeg.txt)
 * [ScreenCast mit Audio-Kommentar im Terminal // Internes Dokument](scast_audio_term.md)
 
 ## Tools
