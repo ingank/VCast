@@ -50,8 +50,14 @@ ffmpeg -f x11grab -video_size 1920x1080 -framerate 60 -i :0.0 foo.mp4
 # Screencast mit H264.VAAPI-Codec
 ffmpeg -f x11grab -video_size 1920x1080 -framerate 60 -i :0.0 -vaapi_device ":0" -vf 'format=nv12,hwupload' -map 0:0 -threads 8 -aspect 16:9 -f mp4 -bf 0 -qp 19 -quality 2 -vcodec h264_vaapi foo.mp4
 
-# Screencast mit H264.VAAPI-Codec ( verkürztes Keyframe-Intervall // Option -g (deprecated) )
-ffmpeg -f x11grab -video_size 1920x1080 -framerate 60 -i :0.0 -vaapi_device ":0" -vf 'format=nv12,hwupload' -map 0:0 -threads 8 -aspect 16:9 -g 30 -f mp4 -bf 0 -qp 19 -quality 2 -vcodec h264_vaapi foo.mp4
-
-# Screencast mit H264.VAAPI-Codec ( verkürztes Keyframe-Intervall //  )
+# Screencast mit H264.VAAPI-Codec
+# verkürztes Keyframe-Intervall = 0.5 Sekunden
+# Option -force_key_frames "expr:gte(t,n_forced*0.5)"
+# Vorteil: Szenenübergänge werden trotzdem mit I-Frame erzeugt
 ffmpeg -f x11grab -video_size 1920x1080 -framerate 60 -i :0.0 -vaapi_device ":0" -vf 'format=nv12,hwupload' -map 0:0 -threads 8 -aspect 16:9 -f mp4 -bf 0 -qp 18 -force_key_frames "expr:gte(t,n_forced*1)" -quality 2 -vcodec h264_vaapi foo.mp4
+
+# Screencast mit H264.VAAPI-Codec
+# verkürztes Keyframe-Intervall = 0.5 Sekunden
+# Option -g 15
+# ACHTUNG:deprecated / der Vollständigkeit halber vermerkt
+ffmpeg -f x11grab -video_size 1920x1080 -framerate 60 -i :0.0 -vaapi_device ":0" -vf 'format=nv12,hwupload' -map 0:0 -threads 8 -aspect 16:9 -g 30 -f mp4 -bf 0 -qp 19 -quality 2 -vcodec h264_vaapi foo.mp4
