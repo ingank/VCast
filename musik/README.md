@@ -42,3 +42,8 @@
 * [Link to Album](https://freemusicarchive.org/music/Anitek/Luna)
 * [Link to Artist](https://freemusicarchive.org/music/Anitek)
 * [Link to Licence](http://creativecommons.org/licenses/by-nc-sa/3.0/us/)
+
+# Lizensvermerk
+
+* Dieses Dokument ist lizensiert unter der CC BY-NC-SA.
+* ![CC BY-NC-SA](http://i.creativecommons.org/l/by-nc-sa/4.0/de/88x31.png)
