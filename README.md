@@ -1,7 +1,19 @@
 # podcast
-Notizen rund um einen geplanten Podcast
 
-## Audio
+## Allgemeines
+* [Bildschirmauflösungen](https://www.elektronik-kompendium.de/sites/com/1904101.htm)
+* [Youtube-Alternativen](https://www.ionos.de/digitalguide/online-marketing/social-media/youtube-alternativen-die-besten-portale-im-ueberblick/)
+* [Screencast-EBook](https://www.learn2use.de/ebook/)
+
+## speziell Audio
+
+## speziell Video
+* [ffmpeg.VAAPI](https://trac.ffmpeg.org/wiki/Hardware/VAAPI)
+
+## Audio/Video
+* [ScreenCast mit Live-Audio-Kommentar - Terminalbasiert]()
+
+
 
 ### [jack_capture](https://github.com/kmatheussen/jack_capture)
 ```
