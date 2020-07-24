@@ -1,0 +1,107 @@
+$ echo;uname -ros;echo;lscpu;echo;lspci;echo;sudo lshw -short
+
+Linux 5.3.0-62-generic GNU/Linux
+
+Architektur:                   x86_64
+CPU Operationsmodus:           32-bit, 64-bit
+Byte-Reihenfolge:              Little Endian
+CPU(s):                        4
+Liste der Online-CPU(s):       0-3
+Thread(s) pro Kern:            1
+Kern(e) pro Socket:            4
+Sockel:                        1
+NUMA-Knoten:                   1
+Anbieterkennung:               GenuineIntel
+Prozessorfamilie:              6
+Modell:                        58
+Modellname:                    Intel(R) Core(TM) i5-3570 CPU @ 3.40GHz
+Stepping:                      9
+CPU MHz:                       1596.456
+Maximale Taktfrequenz der CPU: 3800,0000
+Minimale Taktfrequenz der CPU: 1600,0000
+BogoMIPS:                      6784.66
+Virtualisierung:               VT-x
+L1d Cache:                     32K
+L1i Cache:                     32K
+L2 Cache:                      256K
+L3 Cache:                      6144K
+NUMA-Knoten0 CPU(s):           0-3
+Markierungen:                  fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm cpuid_fault epb pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase smep erms xsaveopt dtherm ida arat pln pts md_clear flush_l1d
+
+00:00.0 Host bridge: Intel Corporation Xeon E3-1200 v2/3rd Gen Core processor DRAM Controller (rev 09)
+00:02.0 VGA compatible controller: Intel Corporation Xeon E3-1200 v2/3rd Gen Core processor Graphics Controller (rev 09)
+00:14.0 USB controller: Intel Corporation 7 Series/C210 Series Chipset Family USB xHCI Host Controller (rev 04)
+00:16.0 Communication controller: Intel Corporation 7 Series/C216 Chipset Family MEI Controller #1 (rev 04)
+00:19.0 Ethernet controller: Intel Corporation 82579LM Gigabit Network Connection (Lewisville) (rev 04)
+00:1a.0 USB controller: Intel Corporation 7 Series/C216 Chipset Family USB Enhanced Host Controller #2 (rev 04)
+00:1d.0 USB controller: Intel Corporation 7 Series/C216 Chipset Family USB Enhanced Host Controller #1 (rev 04)
+00:1e.0 PCI bridge: Intel Corporation 82801 PCI Bridge (rev a4)
+00:1f.0 ISA bridge: Intel Corporation Q77 Express Chipset LPC Controller (rev 04)
+00:1f.2 SATA controller: Intel Corporation 7 Series/C210 Series Chipset Family 6-port SATA Controller [AHCI mode] (rev 04)
+00:1f.3 SMBus: Intel Corporation 7 Series/C216 Chipset Family SMBus Controller (rev 04)
+
+H/W-Pfad                 Gerät     Klasse         Beschreibung
+===============================================================
+                                    system         OptiPlex 7010
+/0                                  bus            0GY6Y8
+/0/0                                memory         64KiB BIOS
+/0/5c                               processor      Intel(R) Core(TM) i5-3570 CPU @ 3.40GHz
+/0/5c/38                            memory         256KiB L1 Cache
+/0/5c/39                            memory         1MiB L2 Cache
+/0/5c/3a                            memory         6MiB L3 Cache
+/0/3b                               memory         12GiB Systemspeicher
+/0/3b/0                             memory         2GiB DIMM DDR3 Synchron 1333 MHz (0,8 ns)
+/0/3b/1                             memory         4GiB DIMM DDR3 Synchron 1333 MHz (0,8 ns)
+/0/3b/2                             memory         2GiB DIMM DDR3 Synchron 1333 MHz (0,8 ns)
+/0/3b/3                             memory         4GiB DIMM DDR3 Synchron 1333 MHz (0,8 ns)
+/0/100                              bridge         Xeon E3-1200 v2/3rd Gen Core processor DRAM Controller
+/0/100/2                            display        Xeon E3-1200 v2/3rd Gen Core processor Graphics Controller
+/0/100/14                           bus            7 Series/C210 Series Chipset Family USB xHCI Host Controller
+/0/100/14/0              usb3       bus            xHCI Host Controller
+/0/100/14/0/2                       input          USB Receiver
+/0/100/14/1              usb4       bus            xHCI Host Controller
+/0/100/14/1/4            scsi6      storage        Portable SSD T5
+/0/100/14/1/4/0.0.0      /dev/sdc   disk           500GB Portable SSD T5
+/0/100/14/1/4/0.0.0/1    /dev/sdc1  volume         128GiB EXT4-Laufwerk
+/0/100/14/1/4/0.0.0/2    /dev/sdc2  volume         128GiB EXT4-Laufwerk
+/0/100/14/1/4/0.0.0/3    /dev/sdc3  volume         209GiB EXT4-Laufwerk
+/0/100/16                           communication  7 Series/C216 Chipset Family MEI Controller #1
+/0/100/19                eno1       network        82579LM Gigabit Network Connection (Lewisville)
+/0/100/1a                           bus            7 Series/C216 Chipset Family USB Enhanced Host Controller #2
+/0/100/1a/1              usb1       bus            EHCI Host Controller
+/0/100/1a/1/1                       bus            Integrated Rate Matching Hub
+/0/100/1a/1/1/2          scsi7      storage        Flash Card Reader/Writer
+/0/100/1a/1/1/2/0.0.0    /dev/sdd   disk           Compact Flash
+/0/100/1a/1/1/2/0.0.0/0  /dev/sdd   disk           
+/0/100/1a/1/1/2/0.0.1    /dev/sde   disk           SD/MMC
+/0/100/1a/1/1/2/0.0.1/0  /dev/sde   disk           
+/0/100/1a/1/1/2/0.0.2    /dev/sdf   disk           MS/MS-PRO
+/0/100/1a/1/1/2/0.0.2/0  /dev/sdf   disk           
+/0/100/1a/1/1/2/0.0.3    /dev/sdg   disk           xD-Picture
+/0/100/1a/1/1/2/0.0.3/0  /dev/sdg   disk           
+/0/100/1a/1/1/2/0.0.4    /dev/sdh   disk           MicroSD/M2
+/0/100/1a/1/1/2/0.0.4/0  /dev/sdh   disk           
+/0/100/1d                           bus            7 Series/C216 Chipset Family USB Enhanced Host Controller #1
+/0/100/1d/1              usb2       bus            EHCI Host Controller
+/0/100/1d/1/1                       bus            Integrated Rate Matching Hub
+/0/100/1d/1/1/5                     multimedia     UMC404HD 192k
+/0/100/1e                           bridge         82801 PCI Bridge
+/0/100/1f                           bridge         Q77 Express Chipset LPC Controller
+/0/100/1f.2                         storage        7 Series/C210 Series Chipset Family 6-port SATA Controller [AHCI mode]
+/0/100/1f.3                         bus            7 Series/C216 Chipset Family SMBus Controller
+/0/1                     scsi0      storage        
+/0/1/0.0.0               /dev/sda   disk           500GB ST500DM002-1BD14
+/0/1/0.0.0/1             /dev/sda1  volume         1GiB Windows NTFS Laufwerk
+/0/1/0.0.0/2             /dev/sda2  volume         454GiB Windows NTFS Laufwerk
+/0/1/0.0.0/3             /dev/sda3  volume         10000MiB Windows NTFS Laufwerk
+/0/2                     scsi1      storage        
+/0/2/0.0.0               /dev/sdb   disk           500GB Samsung SSD 860
+/0/2/0.0.0/1             /dev/sdb1  volume         511KiB BIOS Boot partition
+/0/2/0.0.0/2             /dev/sdb2  volume         64GiB EXT4-Laufwerk
+/0/2/0.0.0/3             /dev/sdb3  volume         63GiB EXT4-Laufwerk
+/0/2/0.0.0/4             /dev/sdb4  volume         63GiB EFI partition
+/0/2/0.0.0/5             /dev/sdb5  volume         63GiB EFI partition
+/0/2/0.0.0/6             /dev/sdb6  volume         63GiB EFI partition
+/0/2/0.0.0/7             /dev/sdb7  volume         63GiB EFI partition
+/0/2/0.0.0/8             /dev/sdb8  volume         63GiB EFI partition
+/0/2/0.0.0/9             /dev/sdb9  volume         17GiB Linux swap Laufwerk
