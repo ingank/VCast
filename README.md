@@ -6,16 +6,12 @@
 * [Youtube-Alternativen](https://www.ionos.de/digitalguide/online-marketing/social-media/youtube-alternativen-die-besten-portale-im-ueberblick/)
 * [Screencast-EBook](https://www.learn2use.de/ebook/)
 
-## speziell Audio
+## Audio / Video
 * [jack_capture](https://github.com/kmatheussen/jack_capture)
 * [jack_capture // Internes Dokument](jack_capture.md)
-* [ffmpeg -f jack](https://ffmpeg.org/ffmpeg-devices.html#jack)
-
-## speziell Video
-* [ffmpeg.VAAPI](https://trac.ffmpeg.org/wiki/Hardware/VAAPI)
-
-## Audio/Video
 * [ffmpeg // meine Parametrierung](ffmpeg.txt)
+* [ffmpeg // JACK aka -f jack](https://ffmpeg.org/ffmpeg-devices.html#jack)
+* [ffmpeg // VAAPI](https://trac.ffmpeg.org/wiki/Hardware/VAAPI)
 * [ScreenCast mit Audio-Kommentar im Terminal // Internes Dokument](scast_audio_term.md)
 
 ## Tools
