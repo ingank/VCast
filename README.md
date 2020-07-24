@@ -25,6 +25,11 @@ Die Ausgangskanäle des Plugins _Limiter_ des _Calf Studio Gear's_ in eine WAV-D
 ```
 jack_capture --port "Calf Studio Gear":"Limiter Out #1" --port "Calf Studio Gear":"Limiter Out #2"
 ```
+
+### [ffmpeg -f jack](https://ffmpeg.org/ffmpeg-devices.html#jack)
+
+JACK input device in `ffmpeg`.
+
 ## Tools
 
 ### [tmux](https://github.com/tmux/tmux)
