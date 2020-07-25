@@ -16,6 +16,7 @@
 * [ffmpeg // Scaling #1](https://trac.ffmpeg.org/wiki/Scaling)
 * [ffmpeg // Scaling #2](https://ffmpeg.org/ffmpeg-filters.html#scale)
 * [ScreenCast mit Audio-Kommentar im Terminal // Internes Dokument](scast_audio_term.md)
+* [K-Meter | Martin Zuther // Absolut zeitgemäßes Audiomessgerät](http://www.mzuther.de/en/software/kmeter/)
 
 ## Tools
 ### [tmux](https://github.com/tmux/tmux)
