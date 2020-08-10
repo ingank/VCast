@@ -12,7 +12,7 @@ tmux split-window -v -t "RECORD"
 tmux select-pane -U
 tmux send-keys -t "RECORD" "./screenrec-video.sh" C-m
 tmux select-pane -D
-tmux send-keys -t "RECORD" "./screenrec-audio" C-m
+tmux send-keys -t "RECORD" "./screenrec-audio.sh" C-m
 tmux attach -t "RECORD"
 tmux kill-server
 
