@@ -10,9 +10,9 @@ echo ${UUID} >uuid.txt
 tmux new-session -s "RECORD" -d
 tmux split-window -v -t "RECORD"
 tmux select-pane -U
-tmux send-keys -t "RECORD" "./record_v.sh" C-m
+tmux send-keys -t "RECORD" "./screenrec-video.sh" C-m
 tmux select-pane -D
-tmux send-keys -t "RECORD" "./record_a.sh" C-m
+tmux send-keys -t "RECORD" "./screenrec-audio" C-m
 tmux attach -t "RECORD"
 tmux kill-server
 
@@ -25,7 +25,7 @@ DIFFSEC=$(expr $STOPSEC - $STARTSEC)
 ffmpeg -i "$UUID.mp4" -i "$UUID.wav" -c:v copy -c:a aac -b:a 224k "$UUID-muxed.mp4"
 
 # filename-management
-mv "$UUID.mp4" "${STOPFULL}_${DIFFSEC}.mp4"
-mv "$UUID.wav" "${STOPFULL}_${DIFFSEC}.wav"
-mv "$UUID-muxed.mp4" "${STOPFULL}_${DIFFSEC}_muxed.mp4"
+mv "$UUID.mp4" "${STOPFULL}_${DIFFSEC}sec.mp4"
+mv "$UUID.wav" "${STOPFULL}_${DIFFSEC}sec.wav"
+mv "$UUID-muxed.mp4" "${STOPFULL}_${DIFFSEC}sec_muxed.mp4"
 rm -f uuid.txt
