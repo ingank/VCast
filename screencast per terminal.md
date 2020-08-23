@@ -1,4 +1,4 @@
-# Screencast mit Audiokommentar vom Terminal aus
+# Screencast mit Audiokommentar im Terminal
 
 * Jack und Calf Studio Gear für die dezente Vorbereitug des Tonsignals.
 * jack_capture für die direkte Aufnahme in eine WAV-Datei.
