@@ -1,4 +1,6 @@
-# VCastProject
+# VCast
+
+Notizen rund um einen geplanten Video-Podcast.
 
 ## Allgemeines
 * [Plattform/HW](plattform.txt)
